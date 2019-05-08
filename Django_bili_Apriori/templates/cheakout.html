@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+</head>
+<body>
+<tr>
+	用户：<td>{{datauser}}</td>
+</tr>
+	<h1>分析结果：</h1>
+		<table border='1'>
+			<thead>
+				<tr>支持度分析</tr>
+			</thead>
+			<tbody>
+				{% for sup in data_sup%}
+				<tr>
+						<td>{{sup.items_s}}</td>
+                        <td>{{sup.freq}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		<table border='1'>
+			<thead>
+				<tr>置信度分析</tr>
+			</thead>
+			<tbody>
+				{% for con in data_con%}
+				<tr>
+						<td>{{con.antecedent_s}}</td>
+                        <td>{{con.consequent_s}}</td>
+                        <td>{{con.confidence}}</td>
+                        <td>{{con.lift}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+	<form action="/cheakout/" method="post">
+		设置最小支持度：<input type="text" name="Support"/>
+        设置最小置信度：<input type="text" name="Confidence"/>
+        设置数据分区：<input type="text" name="numPartitions"/><br/>
+        设置观看量：<input type="text" name="min-views"/>-<input type="text" name="max-views"/>
+        设置时间：<input type="text" name="min-time"/>-<input type="text" name="max-time"/><br/>
+		<input type="submit" value="确认">
+	</form>
+	<script src="/static/js/jquery-3.3.1.js"></script>
+</html>
