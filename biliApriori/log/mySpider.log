@@ -1,0 +1,1979 @@
+2019-05-05 17:26:41 [root] WARNING: ('Get startNum：', '50816648', 'Get fitNums：', '315')
+2019-05-05 17:27:37 [root] WARNING: ('Get startNum：', 50816713, 'Get fitNums：', 319)
+2019-05-05 17:29:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:29:39 [root] WARNING: ('上传数据成功, batch:', 2)
+2019-05-05 17:31:07 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 50817318, 'Get fitNums：', 341)
+2019-05-05 17:33:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:35:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:37:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:40:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:42:34 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:45:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:47:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:50:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:52:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:54:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 17:58:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:00:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:03:02 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:05:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:07:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:09:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:11:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:14:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:15:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270424/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50831677)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 18:16:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:18:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:20:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:21:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50833582> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 18:22:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:25:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:25:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270944/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50835192)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 18:26:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270592/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50835204)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 18:27:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:29:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:31:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:33:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:34:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:37:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:39:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50839443> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 18:40:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:42:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:45:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:47:02 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:49:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:50:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:52:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:54:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:55:46 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:57:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 18:59:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:00:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:02:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:04:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:06:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:08:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:09:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:11:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:13:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:14:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:15:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:18:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:19:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:20:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:22:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:23:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:25:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:26:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:28:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:30:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:32:17 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:34:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:36:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:36:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270985/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50858202)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 19:38:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:39:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:41:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:43:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep259714/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50860275)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 19:43:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267430/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50860389)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 19:44:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:46:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:48:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:50:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:51:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:53:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:54:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50863760> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 19:55:46 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 19:58:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:00:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:03:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:05:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:07:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:08:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270986/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50868530)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 20:09:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:12:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:14:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:16:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:18:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:21:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:24:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:26:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:28:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:30:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:32:34 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:34:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:37:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:38:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:40:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:43:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:45:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:49:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:52:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:54:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 20:57:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:01:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:04:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:07:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:12:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:14:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:16:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:18:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:20:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:24:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:26:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:26:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50893781> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 21:28:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:30:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:32:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:32:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50895464> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 21:33:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:36:02 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:37:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:39:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:41:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:43:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:46:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:49:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:51:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:53:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:56:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 21:59:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:01:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:03:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:05:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50906069> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 22:05:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:07:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:11:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:12:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50908155> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 22:13:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:16:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:18:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:19:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:22:17 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:24:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:26:14 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:28:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:29:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270366/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50913888)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:31:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:32:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:34:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:35:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271067/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50915673)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:35:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:36:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50916049> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 65, in video_fit
+    if views>10000:#播放量大于1万
+TypeError: '>' not supported between instances of 'str' and 'int'
+2019-05-05 22:37:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:38:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271004/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50916689)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:38:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271012/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50916718)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:39:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271005/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50916883)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:39:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:40:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=50917161> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-05 22:40:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271006/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50917198)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:40:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271007/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50917356)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:41:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271008/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50917539)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:41:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:42:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270849/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50917799)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:42:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:44:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:46:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271010/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50919143)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:46:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:47:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:48:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271079/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50919907)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 22:50:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:52:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:54:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:55:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 22:58:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:00:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:02:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:03:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271285/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50924643)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:05:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:07:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:10:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:13:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:14:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:16:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:18:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:20:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:22:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271013/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50930699)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:22:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:24:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:27:09 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:28:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:30:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271011/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50933284)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:30:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:31:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270790/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50933752)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:32:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271021/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50933861)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:32:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:33:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271020/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50934285)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:34:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267615/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50934467)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:35:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:37:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:38:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:40:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:42:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:45:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:47:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:49:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:52:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:54:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:54:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267443/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50940883)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:55:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:57:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270414/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50941690)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-05 23:57:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-05 23:58:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:00:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:02:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:03:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:06:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:06:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270862/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50944789)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:07:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:09:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:10:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:12:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:13:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:15:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:16:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:17:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:19:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:20:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:22:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:23:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:25:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:26:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270654/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50951201)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:27:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:27:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270882/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50951480)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:29:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:31:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:32:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:34:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:35:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:37:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:38:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267487/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50955077)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:39:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:41:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:42:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:43:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271065/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50956650)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:44:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:46:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:47:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270870/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50957735)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:47:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:49:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:51:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:53:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:54:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267468/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50960292)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270971/> (referer: http://api.bilibili.com/archive_stat/stat?aid=50960500)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 00:56:09 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 00:58:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:00:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:01:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:03:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:05:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:07:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:09:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:12:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:13:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:16:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:18:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:20:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:22:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:24:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:26:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:28:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:30:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:33:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:35:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:37:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:39:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:42:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:44:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:47:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 01:50:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 02:08:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 02:09:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 02:13:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 02:20:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985921>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:20:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985922>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:27:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985923>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:27:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985924>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:33:56 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985925>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:33:56 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985926>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:40:30 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985927>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:40:30 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985928>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:47:03 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985930>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:47:03 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985929>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:53:36 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985931>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 02:53:36 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985932>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 03:00:09 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985933>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 03:00:09 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=50985934>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 03:01:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 03:18:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 04:37:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 05:08:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:12:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:12:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep270596/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51048674)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 06:44:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:49:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:52:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:54:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 06:56:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:00:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:02:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:03:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:05:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:07:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:10:09 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:13:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:15:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:18:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:20:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:22:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:23:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267683/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51070573)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 07:25:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:27:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:29:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:31:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:33:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:37:15 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:38:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:41:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:43:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:45:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:48:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:51:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:53:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 07:56:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:00:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:02:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:04:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:07:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:09:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:12:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:14:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:16:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:18:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271078/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51088455)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 08:18:34 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:21:15 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:23:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:25:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:27:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271080/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51091566)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 08:28:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:30:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:33:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:37:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:40:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:42:20 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51096285> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 65, in video_fit
+    if views>10000:#播放量大于1万
+TypeError: '>' not supported between instances of 'str' and 'int'
+2019-05-06 08:42:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:44:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:47:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:49:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:51:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:54:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 08:58:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:01:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:04:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:06:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:09:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:11:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:13:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:16:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:19:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:22:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:24:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:27:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:29:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:32:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:34:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:36:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:38:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:39:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:42:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:44:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:47:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:49:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:51:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:53:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:56:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 09:58:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 10:00:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 10:02:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 10:10:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.bilibili.com/video/av51122773>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:10:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.bilibili.com/video/av51122780>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:17:04 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122782>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:17:06 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122783>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:23:37 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122784>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:23:39 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122785>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:30:10 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122786>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:30:12 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122787>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:36:43 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122788>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:36:45 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122789>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:43:16 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122790>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:43:18 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122791>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:49:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122792>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:49:52 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122793>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:56:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122794>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 10:56:25 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122795>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:02:56 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122796>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:02:58 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122797>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:09:29 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122798>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:09:31 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122799>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:16:02 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122800>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:16:05 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122801>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:22:36 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122802>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:22:38 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122803>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:29:09 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122804>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:29:11 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122805>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:35:42 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122806>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:35:44 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122807>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:42:15 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122808>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:42:17 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122809>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:48:49 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122810>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:48:51 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51122811>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-05-06 11:51:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 11:55:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 11:57:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:00:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:02:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:05:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:07:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:09:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:12:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:14:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:19:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:21:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:24:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:29:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:32:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:36:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:39:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:41:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:43:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:46:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:50:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:53:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:55:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 12:58:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:03:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:06:14 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:09:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:11:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:13:50 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:16:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267739/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51150691)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 13:17:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:20:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:22:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:26:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:28:34 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:30:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:33:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:34:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep250773/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51156552)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 13:37:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:40:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:43:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:46:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:49:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:54:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:56:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 13:58:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:00:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:03:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:06:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:09:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:11:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:14:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:17:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:20:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:22:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:25:14 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:29:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:32:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:34:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:37:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:39:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:41:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267725/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51178266)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 14:42:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:43:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:46:02 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:48:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:50:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:52:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:55:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 14:57:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271081/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51183503)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 14:57:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:00:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:03:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:04:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:07:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:09:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:11:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:14:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:16:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:19:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:22:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:24:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:26:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:29:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:31:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:34:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:37:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:39:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:42:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:44:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:46:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:48:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:51:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271076/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51201137)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 15:52:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:55:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 15:59:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:02:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:03:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep269766/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51205143)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 16:04:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:07:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:11:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:13:26 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:16:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:18:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:21:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:24:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:27:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:29:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:32:14 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:35:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:37:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:40:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:43:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:47:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:49:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:54:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 16:58:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:01:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:03:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:07:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:09:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:11:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:15:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:18:44 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:22:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:24:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:26:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:29:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:32:03 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:34:17 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:37:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:39:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:42:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:45:36 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:48:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:49:51 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:51:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:54:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:56:15 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 17:59:13 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:01:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:03:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:04:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:06:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:08:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:11:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:13:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:16:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:17:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:20:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:23:41 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:26:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:29:46 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:32:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:36:14 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:39:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:42:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:45:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:48:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:51:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:54:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:56:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 18:59:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:01:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:04:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:04:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267753/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51263752)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 19:07:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:10:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:13:08 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:17:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:20:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:22:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:26:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:28:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:31:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271094/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51272418)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 19:31:30 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:34:16 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:36:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:40:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:43:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:47:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:51:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:54:53 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 19:58:17 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 20:01:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 20:05:59 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 20:10:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 20:14:40 [root] WARNING: 当前最后一批数据上传
+2019-05-06 20:14:41 [root] WARNING: ('上传数据成功, batch:', 2)
+2019-05-06 20:14:50 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51285217, 'Get fitNums：', 10503)
+2019-05-06 20:14:50 [root] WARNING: 过时数据删除失败
+2019-05-06 20:15:25 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51285217, 'Get fitNums：', 10503)
+2019-05-06 20:15:25 [root] WARNING: 过时数据删除失败
+2019-05-06 20:15:55 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://api.bilibili.com/robots.txt>: DNS lookup failed: no results for hostname lookup: api.bilibili.com.
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/endpoints.py", line 975, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: api.bilibili.com.
+2019-05-06 20:16:25 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51285217>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/endpoints.py", line 975, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: api.bilibili.com.
+2019-05-06 20:16:25 [scrapy.core.scraper] ERROR: Error downloading <GET http://api.bilibili.com/archive_stat/stat?aid=51285218>
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/fantome/.local/lib/python3.7/site-packages/twisted/internet/endpoints.py", line 975, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: api.bilibili.com.
+2019-05-06 20:54:21 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51285217, 'Get fitNums：', 10503)
+2019-05-06 20:54:21 [root] WARNING: 过时数据删除成功
+2019-05-06 20:56:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51285777> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-06 21:17:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:28:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:34:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:39:07 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:41:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:43:34 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:45:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:48:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:52:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:53:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/video/av51303987> (referer: http://api.bilibili.com/archive_stat/stat?aid=51303987)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 21:56:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 21:58:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:00:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:03:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:04:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51307116> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 65, in video_fit
+    if views>10000:#播放量大于1万
+TypeError: '>' not supported between instances of 'str' and 'int'
+2019-05-06 22:04:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep250641/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51307168)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 22:05:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:08:01 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:10:12 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:11:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267766/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51309652)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 22:13:06 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:16:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:19:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:21:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:23:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:25:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267791/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51314060)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 22:26:45 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:32:58 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:35:35 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:36:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271095/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51316439)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 22:39:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:41:46 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:44:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:47:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:50:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51320922> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-06 22:51:02 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:51:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267815/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51321427)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 22:55:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 22:57:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:01:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:03:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:06:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:08:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:11:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:12:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51328082> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-06 23:13:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/video/av51328437> (referer: http://api.bilibili.com/archive_stat/stat?aid=51328437)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 23:14:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:16:37 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:19:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:22:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep267827/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51331441)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 23:24:21 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:26:48 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:29:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:33:24 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:36:20 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:39:00 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:39:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.bilibili.com/bangumi/play/ep271096/> (referer: http://api.bilibili.com/archive_stat/stat?aid=51337090)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 75, in parse_detail
+    time = response.xpath(path_time).extract()[0]
+IndexError: list index out of range
+2019-05-06 23:41:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://api.bilibili.com/archive_stat/stat?aid=51337543> (referer: None)
+Traceback (most recent call last):
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/.local/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/fantome/Projects/PycharmProjects/biliApriori/biliApriori/spiders/videoInfo/video_info_20w.py", line 56, in video_fit
+    allow=data["message"]
+TypeError: 'NoneType' object is not subscriptable
+2019-05-06 23:44:17 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:47:31 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:51:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:54:54 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-06 23:58:11 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:01:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:05:18 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:09:33 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:13:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:18:25 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:22:32 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:25:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:30:28 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:33:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:36:55 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:41:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:45:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 00:46:20 [root] WARNING: 当前最后一批数据上传
+2019-05-07 00:46:22 [root] WARNING: ('上传数据成功, batch:', 4)
+2019-05-07 08:06:38 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51358522, 'Get fitNums：', 11747)
+2019-05-07 08:06:38 [root] WARNING: 过时数据删除成功
+2019-05-07 08:11:23 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:13:52 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:15:33 [root] WARNING: 当前最后一批数据上传
+2019-05-07 08:15:34 [root] WARNING: ('上传数据成功, batch:', 5)
+2019-05-07 08:15:42 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51361371, 'Get fitNums：', 11792)
+2019-05-07 08:15:42 [root] WARNING: ('过时数据删除成功', '剩余数据:', 11792, '删除条数：', 0)
+2019-05-07 08:19:47 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:22:43 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:25:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:29:15 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:31:42 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:34:22 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:37:29 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:40:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:41:40 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:44:10 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:46:39 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:48:19 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:49:56 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:51:57 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:53:38 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 08:56:04 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 09:00:27 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 09:04:49 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 09:10:05 [root] WARNING: ('上传数据成功, batch:', 20)
+2019-05-07 09:11:03 [root] WARNING: 当前最后一批数据上传
+2019-05-07 09:11:04 [root] WARNING: ('上传数据成功, batch:', 9)
+2019-05-08 11:17:39 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51497790, 'Get fitNums：', 1)
+2019-05-08 11:17:39 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14378, '删除条数：', 0)
+2019-05-08 11:18:22 [root] WARNING: 当前最后一批数据上传
+2019-05-08 11:18:24 [root] WARNING: ('上传数据成功, batch:', 2)
+2019-05-08 11:21:24 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51498124, 'Get fitNums：', 1)
+2019-05-08 11:21:24 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14381, '删除条数：', 0)
+2019-05-08 11:21:45 [root] WARNING: 当前最后一批数据上传
+2019-05-08 11:21:46 [root] WARNING: ('上传数据成功, batch:', 2)
+2019-05-08 11:23:54 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51498222, 'Get fitNums：', 1)
+2019-05-08 11:23:54 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14383, '删除条数：', 0)
+2019-05-08 11:24:01 [root] WARNING: 当前最后一批数据上传
+2019-05-08 11:24:02 [root] WARNING: ('上传数据成功, batch:', 1)
+2019-05-08 11:26:22 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51498239, 'Get fitNums：', 1)
+2019-05-08 11:26:23 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14384, '删除条数：', 0)
+2019-05-08 11:26:42 [root] WARNING: 当前最后一批数据上传
+2019-05-08 11:26:43 [root] WARNING: ('上传数据成功, batch:', 3)
+2019-05-08 11:27:57 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51498329, 'Get fitNums：', 1)
+2019-05-08 11:27:57 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14387, '删除条数：', 0)
+2019-05-08 11:28:18 [root] WARNING: 当前最后一批数据上传
+2019-05-08 11:28:19 [root] WARNING: ('上传数据成功, batch:', 3)
+2019-05-08 11:29:19 [root] WARNING: ('this is not a warning and scrapy start to work', '\nGet startNum：', 51498430, 'Get fitNums：', 1)
+2019-05-08 11:29:19 [root] WARNING: ('过时数据删除成功', '剩余数据:', 14390, '删除条数：', 0)
+2019-05-08 11:38:08 [root] WARNING: ('上传数据成功, batch:', 50, 'tag_weight.batch:', 102)
+2019-05-08 11:42:50 [root] WARNING: ('上传数据成功, batch:', 23, 'tag_weight.batch:', 105)
+2019-05-08 11:50:23 [root] WARNING: ('上传数据成功, batch:', 37, 'tag_weight.batch:', 104)
+2019-05-08 11:53:06 [root] WARNING: ('上传数据成功, batch:', 21, 'tag_weight.batch:', 126)
+2019-05-08 11:56:55 [root] WARNING: ('上传数据成功, batch:', 35, 'tag_weight.batch:', 107)
+2019-05-08 12:00:36 [root] WARNING: ('上传数据成功, batch:', 24, 'tag_weight.batch:', 104)
+2019-05-08 12:06:56 [root] WARNING: ('上传数据成功, batch:', 44, 'tag_weight.batch:', 101)
+2019-05-08 12:09:25 [root] WARNING: 当前最后一批数据上传
+2019-05-08 12:09:26 [root] WARNING: ('上传数据成功, batch:', 16, 'tag_weight.batch:', 29)
